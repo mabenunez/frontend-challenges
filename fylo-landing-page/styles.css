@@ -1,3 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    display: flex;
+
+}
+.info {
+    width: 55%;
+}
+.illustration {
+    width: 45%;
+}
+.illustration__img {
+    height: 100%;
+}
+h2 , h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.sign-up {
+    display: flex;
+}
+.sign-up__btn {
+    height: 50px;
+    width: 150px;
+    background: hsl(163, 95%, 43%);  
+    border: none;
+    color: white;
+    font-size: 16px;
+}
 p {
-    color: red;
+    color: hsl(0, 0%, 50%);
+}
+.hdr-bar {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+.hdr-bar__sn-list {
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
 }

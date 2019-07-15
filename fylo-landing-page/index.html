@@ -6,17 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <title>Fylo</title>
 </head>
 <body>
-  <section></section>
-  <section>
-    <header>
-      <div>
-        <img src="" alt="" srcset="">
-        <h2>Fylo</h2>
+  <section class="illustration">
+    <img class="illustration__img" src="images/illustration-main.svg" alt="">
+  </section>
+  <section class="info">
+    <header class="hdr-bar">
+      <div class="hdr-bar__logo">
+        <img src="images/logo.svg" alt="" srcset="">
       </div>
-      <ul>
+      <ul class="hdr-bar__sn-list">
         <li>
           <a href="https://twitter.com">
             <i class="fab fa-twitter"></i>
@@ -34,13 +37,15 @@
         </li>
       </ul>
     </header>
-    <h1>All your files in one secure location, accesible anywhere.</h1>
-    <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
     <div>
-      <h3>Sign up for early access</h3>
+      <h1>All your files in one secure location, accesible anywhere.</h1>
+      <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
       <div>
-        <input type="text" name="Sign" id="">
-        <button>Sign Up</button>
+        <h3>Sign up for early access</h3>
+        <form class="sign-up">
+          <input class="sign-up__input" type="text" name="Sign" id="" placeholder="yourmail@mail.com">
+          <button class="sign-up__btn">Sign Up</button>
+        </form>
       </div>
     </div>
     <a href="">Privacy Policy</a>
