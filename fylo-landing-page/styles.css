@@ -5,20 +5,31 @@
 }
 body {
     display: flex;
-
+    height: 100vh;
 }
 .info {
     width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px;
 }
 .illustration {
     width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+
 }
 .illustration__img {
-    height: 100%;
+    width: 65%;
 }
 h2 , h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    color: hsl(243, 87%, 12%);
 }
 .sign-up {
     display: flex;
@@ -36,13 +47,20 @@ p {
 }
 .hdr-bar {
     display: flex;
-    margin: 50px;
+    /* margin: 40px; */
     justify-content: space-between;
+    align-items: center;
 }
 .hdr-bar__sn-list {
-    width: 30%;
+    width: 25%;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    
+    color: hsl(243, 87%, 12%);
+}
+.hdr-bar__sn-list a{
+    color: hsl(243, 87%, 12%);
+}
+.policy {
+    align-self: flex-end;
 }
